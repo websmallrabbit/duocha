@@ -1,0 +1,15 @@
+.icon{
+  width: 40px;
+  height: 40px;
+}
+.icon-text{
+  font-size: 12px;
+}
+.classify{
+  padding: 20px 0;
+}
+
+.icon-item{
+  width: 33%;
+  margin-bottom: 30px;
+}

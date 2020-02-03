@@ -1,0 +1,30 @@
+/* pages/detail/qqdetail/qqdetail.wxss */
+
+.container view{
+  margin: 20rpx 0;
+}
+.qq{
+  font-size: 34px;
+  color: #0767c8;
+
+}
+.luck{
+  font-size: 24px;
+  color: #9400D3	
+}
+.score{
+   color: #9400D3	
+}
+.content{
+  color: #9B30FF;
+  font-size: 20rpx;
+}
+.character{
+  color: #912CEE;
+  font-size: 30px;	
+}
+.characterdetail{
+  width:80%;
+  color: #9A32CD;
+  font-size:28rpx;
+}

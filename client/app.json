@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/classify/classify",
+    "pages/detail/qq/qq",
+    "pages/detail/zhouyi/zhouyi",
+    "pages/detail/cell/cell",
+    "pages/detail/flowrecharge/flowrecharge",
+    "pages/detail/transit/transit",
+    "pages/detail/recipe/recipe",
+    "pages/detail/qqdetail/qqdetail",
+    "pages/detail/recipeDetail/recipeDetail",
+    "pages/detail/weixin/weixin",
+    "pages/detail/weixinDetail/weixinDetail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "首页",
+    "navigationBarBackgroundColor": "#0767c8",
+    "backgroundColor": "#fbf9fe",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#222",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/index.png",
+        "selectedIconPath": "image/index.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/classify/classify",
+        "iconPath": "image/classify.png",
+        "selectedIconPath": "image/classify.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "image/mine.png",
+        "selectedIconPath": "image/mine.png",
+        "text": "日志"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

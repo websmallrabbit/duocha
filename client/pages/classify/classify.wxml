@@ -1,0 +1,8 @@
+<view class='classify'>
+  <view class='clearfix'>
+    <view class='flex-item icon-item fl' wx:for-items="{{classify}}" wx:key="index" bindtap='goItem' data-type="{{item.name}}">
+      <image class='icon' src='{{item.image}}'></image>
+      <text class='icon-text'>{{item.text}}</text>
+    </view>
+  </view>
+</view>

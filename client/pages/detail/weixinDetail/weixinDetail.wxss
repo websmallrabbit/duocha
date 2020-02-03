@@ -1,0 +1,28 @@
+.title{
+  width: 95%;
+  font-size: 46rpx;
+  font-weight: bold;
+  font-family: "宋体";
+  margin: 10rpx auto;
+}
+
+.title-header view{
+  font-size: 20rpx;
+  color: #666;
+  text-align: center;
+}
+
+.readnum{
+  width:200rpx;
+  height:70rpx;
+  border-radius:20rpx;
+  background: red;
+  text-align: center;
+  line-height: 70rpx;
+  color: #fff;
+}
+.weixinsummary{
+  font-size: 20rpx;
+  margin: 40rpx;
+  color: Purple;
+}

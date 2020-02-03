@@ -1,0 +1,36 @@
+<import src="../../../wxParse/wxParse.wxml" />
+
+<view class="search-result">
+  <scroll-view scroll-y="true" bindscrolltolower="searchScrollLower">
+    <view wx:for="{{list}}" wx:key="index">
+      <image src='{{item.pic}}' class='pic' mode='widthFix'></image>
+      <view class='body-content'>
+        <view class='flex title-header' style='margin:20rpx 0'>
+          <view class='title'>{{item.name}}</view>
+          <view class="tag">{{item.tag}}</view>
+        </view>
+        <view class="wxParse content">
+          <template is="wxParse" data="{{wxParseData:article.nodes}}" />
+        </view>
+        <view class='title m40'>制作时间</view>
+        <view class='f26'>{{item.cookingtime}}</view>
+        <view class='title m40'>准备时间</view>
+        <view class='f26'>{{item.preparetime}}</view>
+        <view class='title m40'>食材</view>
+        <view class='clearfix'>
+          <view class='character fl' wx:for="{{item.material}}" wx:key="index">
+            <text style='margin-right:20rpx'>
+        <text class='mname f26'>{{item.mname}} </text>
+            <text class='amount f26'>{{item.amount}}</text>
+            </text>
+          </view>
+        </view>
+        <view class='title m40'>步骤</view>
+        <view class='characterdetail m20' wx:for="{{item.process}}" wx:key="index">
+          <view class='pcontent f30'>{{item.pcontent}}</view>
+          <image class='processpic' src='{{item.pic}}'></image>
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+</view>

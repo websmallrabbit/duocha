@@ -1,0 +1,70 @@
+@import "../../../weui.wxss";
+
+
+.flex-wrp{
+  width: 96%;
+  margin: 0 auto;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  margin-top: 20rpx;
+  display:flex;
+}
+.flex-item{
+  height:200rpx;
+  font-size: 26rpx;
+}
+.demo-text-1{
+  width: 30%;
+}
+.demo-text-2{
+  width:65%;
+}
+
+
+.qq-num{
+  color: #0767c8;
+}
+.item-left{
+  width: 200rpx;
+  font-size: 20rpx;
+}
+.close-box{
+  margin-top: 26rpx;
+}
+
+.character{
+  font-size: 34rpx;
+  color: #9400D3; 
+}
+.characterdetail{
+  width: 80%;
+  margin: 0 auto;
+  height: auto;
+  overflow: hidden;
+    
+  text-overflow:ellipsis;
+  font-size: 24rpx;
+  color: #9B30FF 
+}
+
+
+
+
+
+
+
+.remove{
+  animation: move cubic-bezier(0.075, 0.82, 0.165, 1) 1.5s forwards;
+}
+@keyframes move{
+  20%{
+    transform: translate3d(200px,0,0)
+  }
+  100%{
+    transform: translate3d(-120%,0,0)
+  }
+}
+
+/* .page-body{
+  margin-top: 170rpx;
+} */

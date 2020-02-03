@@ -1,0 +1,44 @@
+<view class="search2">
+  <view class="search-bar">
+    <view class="search-wrap">
+      <icon type="search" size="16" class="icon-search" />
+      <input type="text" placeholder="请输入搜索内容" class="search-input" name="qq" value="{{qq}}" bindinput='setValue' />
+    </view>
+    <view class="search-cancel" bindtap="requestData">搜索</view>
+  </view>
+
+  <view class="search-result">
+    <scroll-view scroll-y="true" >
+
+      <view class="page-body">
+        <view class="page-section">
+          <view class="page-section-spacing">
+            <view wx:for="{{list}}" wx:key="{{index}}">
+              <view class="flex-wrp " data-qq="{{item}}" catchtap='goDetail'>
+                <view class="flex-item demo-text-1">
+                  <view class='qq-num'>{{item.qq}}</view>
+                  <view class='flex item-left'>
+                    <text>{{item.luck}}</text>
+                    <text>{{item.score}}分</text>
+                  </view>
+                </view>
+                <view class="flex-item demo-text-2">
+                  <view class='character'>性格:{{item.character}}</view>
+                  <view class='characterdetail'>内容：{{item.content}}...</view>
+                </view>
+                <view class="close-box" data-num="{{index}}" catchtap='removefun'>
+                  <image class="close-icon" src='../../../image/close.png'></image>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+
+
+
+    </scroll-view>
+  </view>
+
+
+</view>

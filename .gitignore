@@ -1,5 +1,6 @@
 # Logs
 logs
+.idea
 *.log
 npm-debug.log*
 # Runtime data
@@ -43,3 +44,6 @@ typings/
 sh/
 # ignore test sdk.config.json
 sdk.config.json
+.idea/jsLibraryMappings.xml
+.idea/workspace.xml
+server/package-lock.json

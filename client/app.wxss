@@ -1,5 +1,4 @@
 /**app.wxss**/
-@import "/wxParse/wxParse.wxss";
 .container {
   height: 100%;
   display: flex;
@@ -8,11 +7,12 @@
   justify-content: space-between;
   padding: 100rpx 0;
   box-sizing: border-box;
-} 
+}
 .flex{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 .flex-item{
   display: flex;
@@ -132,162 +132,4 @@ input{
 
 .body-content{
   padding: 0 40rpx;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-image{
-  width: 100%;
-}
-.f26{
-  font-size: 26rpx;
-}
-.f30{
-  font-size: 30rpx;
-}
-
-.m40{
-  margin: 40rpx 0 0;
-}
-
-.m20{
-  margin: 20rpx 0;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*搜搜框  */
-
-
-page{  
-  width: 100%;
-  display: flex;  
-  flex-direction: column;  
-  height: 100%;  
-}  
-  
-/*搜索*/  
-.search2{  
-  width: 100%;
-  flex: auto;  
-  display: flex;  
-  flex-direction: column;  
-  background: #fff;  
-}  
-.search-bar{
-  flex: none;  
-  display: flex;  
-  align-items: center;  
-  justify-content: space-between;  
-  padding: 20rpx;  
-  background: #f4f4f4;  
-}  
-.search-wrap{  
-  position: relative;  
-  flex: auto;  
-  display: flex;  
-  align-items: center;  
-  height: 80rpx;  
-  padding: 0 20rpx;  
-  background: #fff;  
-  border-radius: 6rpx;  
-}  
-.search-wrap .icon-search{  
-  margin-right: 10rpx;  
-}  
-.search-wrap .search-input{  
-  flex: auto;  
-  font-size: 28rpx;  
-}  
-.search-cancel{  
-  padding: 0 20rpx;  
-  font-size: 28rpx;  
-}  
-  
-/*搜索结果*/  
-.search-result{  
-  flex: auto;  
-  position: relative;  
-}  
-.search-result scroll-view{  
-  position: absolute;  
-  bottom: 0;  
-  left: 0;  
-  right: 0;  
-  top: 0;  
-}  
-.result-item{  
-  position: relative;  
-  display: flex;  
-  flex-direction: column;  
-  overflow: hidden;  
-  /* border-bottom: 1rpx solid #e5e5e5;  */
-}  
-
-
-.title-header view{
-  flex: 1;
-  overflow: hidden;  
-  text-overflow: ellipsis;  
-  white-space: nowrap;  
-  text-align: left;
-}
-
-
-
-
-
-.loading{  
-  padding: 10rpx;  
-  text-align: center;  
-}  
-.loading:before{  
-  display: inline-block;  
-  margin-right: 5rpx;  
-  vertical-align: middle;  
-  content: '';  
-  width: 40rpx;  
-  height: 40rpx;  
-  background-size: contain;  
-  animation: rotate 1s linear infinite;  
-}  
-.loading.complete:before{  
-  display: none;  
-}  
-
-
-
-.flexbet{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }

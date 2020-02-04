@@ -1,15 +1,28 @@
-.icon{
-  width: 40px;
-  height: 40px;
-}
-.icon-text{
-  font-size: 12px;
-}
 .classify{
-  padding: 20px 0;
+  padding: 0 20rpx;
 }
-
-.icon-item{
-  width: 33%;
-  margin-bottom: 30px;
+.logo-box {
+  width: 100%;
+  margin: 0 auto;
+  vertical-align: center;
+  text-align: center;
+}
+.classify .logo {
+  width: 200rpx;
+  height: 100rpx;
+}
+.middle .item {
+  width: 340rpx;
+  height: 170rpx;
+  border-radius: 20rpx;
+  margin-bottom: 40rpx;
+  background: linear-gradient(to left, #b85074,  #ee6895);
+  font-weight: bold;
+  text-align: center;
+  line-height: 170rpx;
+  color: aliceblue;
+}
+.bottom {
+  margin-top: 100rpx;
+  text-align: right;
 }

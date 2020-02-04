@@ -1,8 +1,0 @@
-<view wx:for="{{list}}" wx:key="index" class='container'>
-  <view class='qq'>{{item.qq}}</view>
-  <view class="luck">{{item.luck}}</view>
-  <view class='score'>{{item.score}}分</view>
-  <view class='character'>{{item.character}}</view>
-  <view class='content'>{{item.content}}</view>
-  <view class='characterdetail'>{{item.characterdetail}}</view>
-</view>

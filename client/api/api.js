@@ -25,22 +25,18 @@ export default class API{
     })
   }
 
-  static showModal(title2,content2){
+  static showModal(title2,content2){ // 提示弹框
     wx.showModal({
       title: title2,
       content: content2,
       showCancel: false,
       confirmText: "确定"
     })
-  } 
- 
+  }
+
 
   static url ={
-    qq:'http://api.jisuapi.com/qqluck/query',
-    recipe:'http://api.jisuapi.com/recipe/search',
-    weixin:'http://api.jisuapi.com/weixinarticle/channel',
-    getArticle:'http://api.jisuapi.com/weixinarticle/get',
-    searchArticle:'http://api.jisuapi.com/weixinarticle/search'
+    qq:'http://api.jisuapi.com/qqluck/query' // 这里配置接口名
   }
 }
 

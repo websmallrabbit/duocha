@@ -1,8 +1,16 @@
 <view class='classify'>
-  <view class='clearfix'>
-    <view class='flex-item icon-item fl' wx:for-items="{{classify}}" wx:key="index" bindtap='goItem' data-type="{{item.name}}">
-      <image class='icon' src='{{item.image}}'></image>
-      <text class='icon-text'>{{item.text}}</text>
-    </view>
+  <view class="logo-box">
+    <image class="logo" src='../../image/1.png'></image>
+  </view>
+  <view class="middle flex">
+    <view class="item">这里是文字</view>
+    <view class="item">这里是文字</view>
+    <view class="item">这里是文字</view>
+    <view class="item">这里是文字</view>
+    <view class="item">这里是文字</view>
+    <view class="item">这里是文字</view>
+  </view>
+  <view class="bottom">
+    <p>热线电话：400-820-8820</p>
   </view>
 </view>
